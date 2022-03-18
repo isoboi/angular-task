@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Numbers } from '../enums/numbers';
+import { Numbers } from '@core/enums/numbers';
 import { sizes } from '@core/helpers';
 
 

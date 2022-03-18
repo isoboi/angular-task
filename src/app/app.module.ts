@@ -3,18 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BarComponent } from './pages/bar/bar.component';
-import { FormatBytesPipe } from '@core/pipes/format-bytes.pipe';
 import { SliderComponent } from './pages/slider/slider.component';
+import { SharedModule } from '@shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarComponent,
-    FormatBytesPipe,
     SliderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
