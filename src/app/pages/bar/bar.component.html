@@ -3,12 +3,14 @@
               [value]="allocatedCapacity"
               [showText]="isAllocatedWidthBig && isUsedWidthSmall"
               [isRoundedBorder]="isAllocatedWidthBig"
-              [width]="allocatedWidth">
+              [width]="allocatedWidth"
+  >
     <app-slider [backgroundColor]="'crimson'"
                 [value]="usedCapacity"
                 [showText]="isUsedWidthBig && isAllocatedWidthBig"
                 [isRoundedBorder]="isAllocatedWidthBig && isUsedWidthBig"
-                [width]="usedWidth">
+                [width]="usedWidth"
+    >
     </app-slider>
   </app-slider>
 </div>

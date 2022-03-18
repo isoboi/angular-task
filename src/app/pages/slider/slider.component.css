@@ -22,8 +22,3 @@
   font-family: Arial, serif;
   white-space: nowrap;
 }
-
-.half-border-radius {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}

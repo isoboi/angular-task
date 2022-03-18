@@ -31,8 +31,8 @@ export class SliderComponent implements OnChanges{
 
   constructor(
     public el: ElementRef,
-  ) {}
-
+  ) {
+  }
 
   ngOnChanges(changes: SimpleChanges) {
     this.el.nativeElement.style.setProperty('--borderRadius', this.isRoundedBorder ? '60px' : '0');

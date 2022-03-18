@@ -6,40 +6,8 @@
   margin-bottom: 8px;
 }
 
-.allocated-capacity {
-  width: 50%;
-  border-radius: 60px;
-  background-color: #2f6b3f;
-  height: 60px;
-  display: flex;
-  color: white;
-  justify-content: center;
-}
-
-.allocated-capacity span {
-  display: flex;
-  flex: 1;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.used-capacity {
-  width: 80%;
-  border-radius: 60px;
-  background-color: crimson;
-  height: 60px;
-}
-
-
-
 .total {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.allocated-capacity span, .total {
-  font-size: 32px;
-  font-family: Arial, serif;
 }
