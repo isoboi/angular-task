@@ -1,6 +1,5 @@
 import {
   ChangeDetectionStrategy,
-  ChangeDetectorRef,
   Component,
   Input,
   OnChanges,
@@ -24,7 +23,7 @@ export class BarComponent implements OnInit, OnChanges {
   public allocatedWidth = 0;
   public usedWidth = 0;
 
-  constructor(private cdr: ChangeDetectorRef) {
+  constructor() {
   }
 
   ngOnChanges(changes: SimpleChanges) {
@@ -34,8 +33,6 @@ export class BarComponent implements OnInit, OnChanges {
     } else {
       alert(alertText)
     }
-
-    this.cdr.detectChanges();
   }
 
   ngOnInit(): void {

@@ -38,7 +38,4 @@ export class SliderComponent implements OnChanges{
     this.el.nativeElement.style.setProperty('--borderRadius', this.isRoundedBorder ? '60px' : '0');
   }
 
-
-
-
 }
