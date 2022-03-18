@@ -1,0 +1,15 @@
+<div class="total-capacity">
+  <app-slider [backgroundColor]="'#2f6b3f'"
+              [value]="allocatedCapacity"
+              [showText]="isAllocatedWidthBig && isUsedWidthSmall"
+              [isRoundedBorder]="isAllocatedWidthBig"
+              [width]="allocatedWidth">
+    <app-slider [backgroundColor]="'crimson'"
+                [value]="usedCapacity"
+                [showText]="isUsedWidthBig && isAllocatedWidthBig"
+                [isRoundedBorder]="isAllocatedWidthBig && isUsedWidthBig"
+                [width]="usedWidth">
+    </app-slider>
+  </app-slider>
+</div>
+<div class="total">Total {{totalCapacity | formatBytes}}</div>

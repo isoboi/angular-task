@@ -1,0 +1,6 @@
+<div class="slider">
+  <ng-content></ng-content>
+  <span class="text" *ngIf="showText">
+    {{value | formatBytes}}
+  </span>
+</div>
